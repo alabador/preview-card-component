@@ -1,0 +1,43 @@
+@import "./variables.scss";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    background-color: $mainBackground;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card-container {
+    width: 80%;
+    display: flex;
+    color: $white;
+    background-color: $cardBackground;
+}
+
+.text-container {
+    @include flex-column;
+    padding: 80px;
+    justify-content: space-between;
+    h1 {
+        font-family: $headingFont;
+        font-size: 2em;
+    }
+    p {
+        font-size: $fontSize;
+        font-family: $bodyFont;
+    }
+}
+
+.text-info {
+    @include flex-column;
+    p {
+        margin-top: 2em;
+    }
+}

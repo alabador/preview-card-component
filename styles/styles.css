@@ -1,1 +1,72 @@
-/* No CSS *//*# sourceMappingURL=styles.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap");
+/* Primary Colors*/
+/*Secondary Colors*/
+/*Fonts*/
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #090b1a;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+}
+
+.card-container {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+  background-color: #1b1938;
+}
+
+.text-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 80px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.text-container h1 {
+  font-family: "Inter", "sans-serif";
+  font-size: 2em;
+}
+
+.text-container p {
+  font-size: 15px;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.text-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.text-info p {
+  margin-top: 2em;
+}
+/*# sourceMappingURL=styles.css.map */
