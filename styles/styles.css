@@ -24,12 +24,16 @@ main {
 }
 
 .card-container {
-  width: 80%;
+  max-width: 80vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   color: white;
-  background-color: #1b1938;
+  max-height: 50vh;
 }
 
 .text-container {
@@ -40,10 +44,12 @@ main {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding: 80px;
+  padding: 60px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  width: 50%;
+  background-color: #1b1938;
 }
 
 .text-container h1 {
@@ -54,6 +60,13 @@ main {
 .text-container p {
   font-size: 15px;
   font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.75);
+  line-height: 1.6em;
+}
+
+.text-container span.highlight {
+  color: #aa5cdb;
 }
 
 .text-info {
@@ -68,5 +81,40 @@ main {
 
 .text-info p {
   margin-top: 2em;
+}
+
+.image-container {
+  width: 50%;
+}
+
+.image-container img {
+  height: 100%;
+}
+
+.three-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.three-card p {
+  font-size: 0.8em;
+  letter-spacing: 0.1em;
+}
+
+.three-card span.data {
+  display: block;
+  color: white;
+  font-size: 1.7em;
+  font-family: rgba(255, 255, 255, 0.75);
+  font-weight: 700;
+  margin-bottom: 0.4em;
 }
 /*# sourceMappingURL=styles.css.map */

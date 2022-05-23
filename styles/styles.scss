@@ -15,16 +15,19 @@ main{
 }
 
 .card-container {
-    width: 80%;
+    max-width: 80vw;
     display: flex;
+    flex-direction: row;
     color: $white;
-    background-color: $cardBackground;
+    max-height: 50vh;
 }
 
 .text-container {
     @include flex-column;
-    padding: 80px;
+    padding: 60px;
     justify-content: space-between;
+    width: 50%;
+    background-color: $cardBackground;
     h1 {
         font-family: $headingFont;
         font-size: 2em;
@@ -32,6 +35,12 @@ main{
     p {
         font-size: $fontSize;
         font-family: $bodyFont;
+        font-weight: 400;
+        color: $mainParagraph;
+        line-height: 1.6em;
+    }
+    span.highlight {
+        color: $accent;
     }
 }
 
@@ -39,5 +48,30 @@ main{
     @include flex-column;
     p {
         margin-top: 2em;
+    }
+}
+
+.image-container {
+    width: 50%;
+    img {
+        height: 100%;
+    }
+}
+
+.three-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    p {
+        font-size: 0.8em;
+        letter-spacing: 0.1em;
+    }
+    span.data {
+        display: block;
+        color: $white;
+        font-size: 1.7em;
+        font-family: $mainParagraph;
+        font-weight: 700;
+        margin-bottom: 0.4em;
     }
 }
