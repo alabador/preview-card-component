@@ -6,28 +6,39 @@
     box-sizing: border-box;
 }
 
-main{
-    display: flex;
+main {
     background-color: $mainBackground;
+    height: 100vh;
+    display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
 }
 
 .card-container {
-    max-width: 80vw;
     display: flex;
-    flex-direction: row;
+    flex-direction: column-reverse;
+    justify-content: center;
     color: $white;
-    max-height: 50vh;
+    width: 80vw;
+    background-color: $cardBackground;
+    border-radius: 8px;
+    
+}
+
+.image-container {
+    img {
+        width: 100%;
+        border-radius: 8px 8px 0 0;
+        min-height: 100%; 
+    }
 }
 
 .text-container {
     @include flex-column;
-    padding: 60px;
-    justify-content: space-between;
-    width: 50%;
-    background-color: $cardBackground;
+    align-items: center;
+    text-align: center;
+    padding: 1.5em;
+
     h1 {
         font-family: $headingFont;
         font-size: 2em;
@@ -38,33 +49,21 @@ main{
         font-weight: 400;
         color: $mainParagraph;
         line-height: 1.6em;
+        margin: 2em 0;
     }
     span.highlight {
         color: $accent;
     }
 }
 
-.text-info {
-    @include flex-column;
-    p {
-        margin-top: 2em;
-    }
-}
-
-.image-container {
-    width: 50%;
-    img {
-        height: 100%;
-    }
-}
-
 .three-card {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     p {
         font-size: 0.8em;
         letter-spacing: 0.1em;
+        margin: 1em 0;
     }
     span.data {
         display: block;
