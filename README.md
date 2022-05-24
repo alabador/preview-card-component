@@ -2,8 +2,6 @@
 
 This is a solution to the [Stats preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-## Table of contents
-
 ## Overview
 
 ### The challenge
@@ -14,15 +12,18 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
+![Desktop](./images/desktop-screenshot.png)
+![Mobile](./images/mobile-screenshot.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/alabador/preview-card-component](https://github.com/alabador/preview-card-component)
+- Live Site URL: [https://alabador.github.io/preview-card-component/](https://alabador.github.io/preview-card-component/)
 
-## My process
+## My process/Challenges
+Initially this was supposed to be a quick exercise to keep my HTML + CSS skills sharp, while also trying out SASS/SCSS. I started having some trouble with layout since I relied too much on flexbox in places where a simpler solution would be better for the use case. 
+
+Overall this was a good exercise for practicing mobile-first designs, responsive layouts, and SASS.
 
 ### Built with
 
