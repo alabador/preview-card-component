@@ -14,12 +14,3 @@ $statHeadings: hsla(0, 0%, 100%, 0.6);
 $fontSize: 15px;
 $headingFont: "Inter", "sans-serif";
 $bodyFont: 'Lexend Deca', sans-serif;
-
-@mixin flex-column {
-    display: flex;
-    flex-direction: column;
-}
-@mixin flex-row {
-    display: flex;
-    flex-direction: row;
-}
