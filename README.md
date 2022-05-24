@@ -36,3 +36,4 @@ Overall this was a good exercise for practicing mobile-first designs, responsive
 ### Useful resources
 
 - [How to setup SASS in VSCode](https://onedebos.wordpress.com/2019/08/01/how-to-setup-sass-in-vscode/) - This helped me with setting up SASS. 
+- [Images not showing in Github Pages](https://stackoverflow.com/questions/41468951/images-not-displaying-in-github-pages) - Changing the url of the href to have a "." in the front fixed it.
